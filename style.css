@@ -1,0 +1,84 @@
+p {
+	color: Green;
+	font-size:20px;
+	word-spacing:10px;
+	letter-spacing:1.5px;
+	line-height:25px;
+	white-space: pre-line;
+	text-shadow: 2px 2px Pink;
+	font-weight: 900;
+}
+h1 {
+	color :PeachPuff;
+	font-size:30px;
+}
+th {
+	color : MidnightBlue;
+	font-size:20px;
+	background-color:OldLace;
+}
+td {
+	color:Navy;
+	font-size:15px;
+	background-color:PaleTurquoise;
+}
+dl {
+	color:MediumTurquoise;
+	font-size:20px;
+	word-spacing:10px;
+	letter-spacing:1.5px;
+	line-height:25px;
+	white-space: pre-line;
+	text-shadow: 2px 2px Pink;
+	font-weight: 900;
+}
+td:hover{
+	color:white;
+	background-color:red;
+}
+th:hover{
+	color:Pink;
+	background-color:Purple;
+}
+p:first-of-type{
+	color:Peru;
+}
+dt:last-of-type{
+	color:RebeccaPurple;
+}
+a:visited{
+	color:black;
+}
+h2:hover{
+	color:Orchid;
+	background-color:Snow;
+}
+dt::first-letter{
+	color:SeaGreen;
+}
+p>sub{
+	color:Orange;
+}
+dl>dd{
+	color:Teal;
+}
+dt:first-child{
+	color:SpringGreen;
+	font-size:22px;
+}
+p:first-of-type{
+	text-decoration-line: underline;
+	 text-decoration-color: red;
+}
+h2:nth-of-type(3){
+	 text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+p:nth-of-type(3){
+	text-transform: lowercase;
+}
+p{
+	text-align: left;
+	text-indent: 50px;
+	font-style: italic;
+}
